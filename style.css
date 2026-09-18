@@ -1,0 +1,101 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-image: url("img.jpg");
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.login{
+    width: 800px;
+    height:500px;
+    
+    border:2px rgb(206, 140, 140) solid ;
+    border-radius: 2%;
+    box-shadow: 0 0 25px rgba(217, 92, 213, 0.6);
+     background-image: url("imgpink.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px palevioletred;    
+
+}
+.login input{
+    width:250px;
+    padding:10px;
+    margin: 10px auto;
+    display: block;
+    color:black;  
+    border:2px black solid;
+}
+.btn{
+    width:100px;
+    padding:10px;
+   
+    border:2px black solid;
+    border-radius: 05%;
+    background-color:rgb(158, 59, 75);
+    color:white;
+
+}
+.innerline{
+   
+    width: 80%;
+    margin: 10px auto;
+    
+}
+.Heading{
+    color:red;
+    font-size: 40px;
+   font-family: "Indie Flower", cursive;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.subheading{
+    color:red;
+    font-size: 20px;
+   font-family: "Indie Flower", cursive;
+    margin-top: 0 ;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.url a{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 10px;
+    text-decoration: none;
+    color:rgb(173, 112, 112);
+     
+            
+
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+     width: 250px;
+    height: 35px;
+    font-size: 15px;
+   
+}
+.sing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(2, 1, 1);
+
+
+}
+.sing a{
+    text-decoration: none;
+    color:rgb(173, 112, 112);
+    
+
+}
